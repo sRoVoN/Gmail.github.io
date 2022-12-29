@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="#" class="link__logo">
+        <img class="nav__logo" src="./images/Gmail-Logo.wine.svg" alt="Gmail" />
+        <span>Gmail</span>
+      </a>
+      <ul class="menu">
+        <li>
+          <button class="button--low button__work">
+            <a href="#">For Work</a>
+          </button>
+        </li>
+        <li>
+          <button class="button--low button__sign">
+            <a href="#">Sign In</a>
+          </button>
+        </li>
+        <li>
+          <button class="button__get">
+            <a href="#" style="color: #fff">Get Gmail</a>
+          </button>
+        </li>
+        <li>
+          <button class="button__account">
+            <a href="#" style="color: #fff">Create an account</a>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <article class="feature grid grid--cols-2">
+      <div class="feature__text">
+        <h1 class="feature__heading">Secure, smart, and easy to use email</h1>
+        <p>
+          Get more done with Gmail. Now integrated with Google Chat, Google
+          Meet, and more, all in one place.
+        </p>
+        <button><a href="#" style="color: #fff">Get Gmail</a></button>
+        <button class="button--low"><a href="#">For Work</a></button>
+      </div>
+      <picture class="feature__images">
+        <source
+          type="image/webp"
+          media="(min-width: 600px)"
+          srcset="./images/featuremin-width600.webp"
+        />
+        <source
+          type="image/webp"
+          media="(max-width:599px)"
+          srcset="./images/featuremax-width599.webp"
+        />
+        <img class="feature__image" src="./images/feature.png" />
+      </picture>
+    </article>
+    <div class="grid grid-2 testimonial">
+      <div class="testimonial-left">
+        <header class="testimonial__header">
+          Email that's secure, private, and puts you in control.
+        </header>
+        <div class="testimonial__main">
+          <title class="testimonial__title">
+            We never use your Gmail conter for any ads purposes
+          </title>
+          <input
+            class="testimonial-text"
+            type="checkbox"
+            id="testimonial-text"
+          />
+          <label class="main" for="testimonial-text">
+            <span class="text-main"
+              >Gmail uses industry-leading encryption for all messages you
+              receive and send. We never use you Gmail content to personalize
+              ads.</span
+            >
+          </label>
+          <img class="testimonial-image" src="./images/max-width599.webp" />
+        </div>
+        <div class="testimonial__main testimonial-2nd">
+          <title class="testimonial__title-2nd">
+            We never use your Gmail conter for any ads purposes
+          </title>
+          <input
+            class="testimonial-text-2nd"
+            type="checkbox"
+            id="testimonial-text-2nd"
+          />
+          <label class="main-2nd" for="testimonial-text-2nd">
+            <span class="text-main-2nd"
+              >Gmail uses industry-leading encryption for all messages you
+              receive and send. We never use you Gmail content to personalize
+              ads.</span
+            >
+          </label>
+          <img class="testimonial-image-2nd" src="./images/toggle.webp" />
+        </div>
+      </div>
+      <picture class="image-side tetimonial-side">
+        <source
+          type="image/webp"
+          media="(min-width: 600px)"
+          srcset="./images/max-width599.webp"
+        />
+        <source
+          type="image/webp"
+          media="(max-width: 599px)"
+          srcset="./images/unnamed.png"
+        />
+        <img
+          src="./images/min-width600.png"
+          class="image-side testimonial-side"
+        />
+      </picture>
+    </div>
+    <div class="grid grid-22 testimoniall">
+      <picture class="image-side tetimoniall-side">
+        <source
+          type="image/webp"
+          media="(min-width: 900px)"
+          srcset="./images/test599.webp"
+        />
+        <source
+          type="image/webp"
+          media="(min-width: 600px)"
+          srcset="./images/test599.webp"
+        />
+        <source
+          type="image/webp"
+          media="(max-width: 599px)"
+          srcset="./images/test600.webp"
+        />
+        <img
+          src="./images/test.png"
+          class="image-side testimoniall-side"
+          style="max-width: 900px"
+        />
+      </picture>
+      <div class="testimoniall-right">
+        <header class="testimoniall__header">Get more done with Gmail</header>
+        <div class="testimoniall__main">
+          <title class="testimoniall__title">
+            Stay connected and get organized
+          </title>
+          <input
+            class="testimoniall-text"
+            type="checkbox"
+            id="testimoniall-text"
+          />
+          <label class="main" for="testimoniall-text">
+            <span class="text-main"
+              >Start a chat, jump into a video call with Meet ,or collaborate in
+              a Doc, all right from Gmail.</span
+            >
+          </label>
+          <img class="testimoniall-image" src="./images/tes2.webp" />
+        </div>
+        <div class="testimoniall__main testimoniall-2nd">
+          <title class="testimoniall__title-2nd">Get more done faster</title>
+          <input
+            class="testimoniall-text-2nd"
+            type="checkbox"
+            id="testimoniall-text-2nd"
+          />
+          <label class="main-2nd" for="testimoniall-text-2nd">
+            <span class="text-main-2nd"
+              >Write emails and messages faster with features like Smart Compose
+              to spend more time doing what you love.</span
+            >
+          </label>
+          <img class="testimoniall-image-2nd" src="./images/test3-599.webp" />
+        </div>
+      </div>
+    </div>
+    <div class="touts">
+      <div class="touts__grid">
+        <div class="touts__grid__tout">
+          <div class="touts__grid__tout__chapter">
+            <div class="touts__grid__tout__chapter__icon">
+              <a href="#"><img src="./images/check-mark-circle-icon.svg" /></a>
+            </div>
+            <div class="touts__grid__tout__chapter__title">
+              Stay productive, even offline
+            </div>
+            <div class="touts__grid__tout__chapter__body">
+              Gmail offline lets you read, reply, delete, and search your Gmail
+              messages when you’re not connected to the internet.
+            </div>
+          </div>
+        </div>
+        <div class="touts__grid__tout">
+          <div class="touts__grid__tout__chapter">
+            <div class="touts__grid__tout__chapter__icon">
+              <a href="#"
+                ><img src="./images/wifi-connection-offline-icon.svg"
+              /></a>
+            </div>
+            <div class="touts__grid__tout__chapter__title">
+              Experience Gmail on any device
+            </div>
+            <div class="touts__grid__tout__chapter__body">
+              Enjoy the ease and simplicity of Gmail, wherever you are.
+            </div>
+          </div>
+        </div>
+        <div class="touts__grid__tout">
+          <div class="touts__grid__tout__chapter">
+            <div class="touts__grid__tout__chapter__icon">
+              <a href="#"><img src="./images/noun-device-920411.svg" /></a>
+            </div>
+            <div class="touts__grid__tout__chapter__title">
+              Works with other tools
+            </div>
+            <div class="touts__grid__tout__chapter__body">
+              Gmail works great with desktop clients like Microsoft Outlook,
+              Apple Mail and Mozilla Thunderbird, including contact and event
+              sync.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pricing__intro">
+      <div class="pricing__intro__chapter">
+        <div class="pricing__intro__chapter__title">
+          Get even more with Google Workspace
+        </div>
+        <div class="pricing__intro__chapter__body">
+          Gmail is now a part of Google Workspace–a set of productivity and
+          collaboration tools that helps individuals, teams, and businesses stay
+          on top of everything.
+        </div>
+      </div>
+    </div>
+    <div class="pricing__includes">
+      <div class="pricing__includes__chapter">
+        <div class="pricing__includes__chapter__title">
+          Every plan includes:
+        </div>
+      </div>
+      <div class="pricing__includes__apps">
+        <div class="pricing__includes__apps__app__chapter">
+          <div class="pricing__includes__apps__app__chapter__icon">
+            <img
+              src="./images/Gmail-Logo.wine.svg"
+              alt="Gmail"
+              width="32px"
+              fill="none"
+              height="32px"
+            />
+            <div class="pricing__includes__apps__app__chapter__title">
+              Gmail
+            </div>
+          </div>
+        </div>
+        <div class="pricing__includes__apps__app__chapter">
+          <div class="pricing__includes__apps__app__chapter__icon">
+            <svg class="icon">
+              <use
+                xlink:href="./images/pricsprite.svg#icons8-google-drive"
+              ></use>
+            </svg>
+            <div class="pricing__includes__apps__app__chapter__title">
+              Drive
+            </div>
+          </div>
+        </div>
+        <div class="pricing__includes__apps__app__chapter">
+          <div class="pricing__includes__apps__app__chapter__icon">
+            <svg class="icon">
+              <use
+                xlink:href="./images/pricsprite.svg#icons8-google-calendar"
+              ></use>
+            </svg>
+            <div class="pricing__includes__apps__app__chapter__title">
+              Calendar
+            </div>
+          </div>
+        </div>
+        <div class="pricing__includes__apps__app__chapter">
+          <div class="pricing__includes__apps__app__chapter__icon">
+            <svg class="icon">
+              <use
+                xlink:href="./images/pricsprite.svg#icons8-google-meet"
+              ></use>
+            </svg>
+            <div class="pricing__includes__apps__app__chapter__title">Meet</div>
+          </div>
+        </div>
+        <div class="pricing__includes__apps__app__chapter__icon">
+          <img
+            src="./images/google-chat-icon.svg"
+            alt="Gmail"
+            width="32px"
+            fill="none"
+            height="32px"
+          />
+          <div class="pricing__includes__apps__app__chapter__title">Chat</div>
+        </div>
+        <div class="pricing__includes__apps__app__chapter">
+          <div class="pricing__includes__apps__app__chapter__icon">
+            <svg class="icon">
+              <use
+                xlink:href="./images/pricsprite.svg#icons8-google-docs"
+              ></use>
+            </svg>
+            <div class="pricing__includes__apps__app__chapter__title">Docs</div>
+          </div>
+        </div>
+        <div class="pricing__includes__apps__app__chapter">
+          <div class="pricing__includes__apps__app__chapter__icon">
+            <svg class="icon">
+              <use
+                xlink:href="./images/pricsprite.svg#google-sheets-icon"
+              ></use>
+            </svg>
+            <div class="pricing__includes__apps__app__chapter__title">
+              Sheets
+            </div>
+          </div>
+        </div>
+        <div class="pricing__includes__apps__app__chapter__icon">
+          <img
+            src="./images/icons8-google-slides.svg"
+            alt="Gmail"
+            width="32px"
+            fill="none"
+            height="32px"
+          />
+          <div class="pricing__includes__apps__app__chapter__title">Slides</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <span><img src="./images/Gmail-Logo.wine.svg" alt="Gmail" style="width: 50px; height:50px;"></span>
+      <h3 class="heading__container">Show the world how it's done.</h3>
+      <p>Get started with a more powerful Gmail.</p>
+      <button class="button__get">
+        <a href="#" style="color: #fff">Get Gmail</a>
+      </button>
+      <button class="container button--low button__work">
+        <a href="#">For Work</a>
+      </button>
+    </div>
+    <div class="aspect-ratio-box">
+      <picture>
+        <source type="image/webp" media="(max-width:599px)" srcset="./images/footermax-width599.webp">
+        <source  type="image/webp" media="(min-width:600px)"  srcset="./images/footermin-width600.webp">
+        <img src="./images/footer.png"  style=" justify-content: center">
+      </picture>
+    </div>
+    <footer>
+        <div class="footer__container">
+          <div class="row">
+            <a href="https://www.google.com/" target="_blank"> <img src="./images/googlelogo_dark54_clr_84x28px.svg" class="google--logo" alt="Google"></a>
+              <ul class="footer__nav">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">About Google</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Privacy & Security</a></li>
+              </ul>
+            <nav class="footer__aside">
+                    <span class="footer__help">
+                      <a href="#"><img src="./images/question-solid.svg" alt="question-mark" width="11px" height="11px" class="nav__icon">Help</a>
+                    </span>
+                    <form class="language-selector" autocapitalize="off">
+                      <select>
+                        <option>Azərbaycan Dili</option>
+                        <option>Bahasa Melayu</option>
+                        <option>Català</option>
+                        <option>Dansk</option>
+                        <option>Deutsch</option>
+                        <option>Eesti</option>
+                        <option selected="">English</option>
+                        <option>English (India)</option>
+                        <option>English (united Kindom)</option>
+                        <option>Español</option>
+                        <option>Español (Latinoamérica)</option>
+                        <option>Euskara</option>
+                        <option>Filipino</option>
+                        <option>Français</option>
+                        <option>Galego</option>
+                        <option>Hrvatski</option>
+                        <option>Indonesia</option>
+                        <option>Italiano</option>
+                        <option>Kiswahili</option>
+                        <option>Latviešu</option>
+                        <option>Lietuvių</option>
+                        <option>Magyar</option>
+                        <option>Neder Lands</option>
+                        <option>Norsk Bokmål (Norge)</option>
+                        <option>polski</option>
+                        <option>Português (Brasil)</option>
+                        <option>Português (Portugal)</option>
+                        <option>Română</option>
+                        <option>Slovenčina</option>
+                        <option>Slovenščina</option>
+                      </select>
+                    </form>
+            </nav>
+          </div>
+        </div>
+    </footer>
+    </div>
+  </body>
+</html>
